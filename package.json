@@ -13,9 +13,18 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinfinit/tab-state-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cinfinit/tab-state-sync/issues"
+  },
+  "homepage": "https://github.com/cinfinit/tab-state-sync#readme",
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm,cjs"
   },
+  "keywords": [ "tab-state-sync" , "tab", "browser", "sync" , "state" , "react","hook","typescript","javascript","storage","localStorage","sessionStorage","syncState"],
   "dependencies": {
     "react": "^18.0.0"
   },
