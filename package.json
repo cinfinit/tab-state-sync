@@ -1,5 +1,5 @@
 {
-  "name": "tab-state-sync",
+  "name": "tabs-state-sync",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -24,7 +24,7 @@
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm,cjs"
   },
-  "keywords": [ "tab-state-sync" , "tab", "browser", "sync" , "state" , "react","hook","typescript","javascript","storage","localStorage","sessionStorage","syncState"],
+  "keywords": [ "tabs-state-sync" , "tab", "browser", "sync" , "state" , "react","hook","typescript","javascript","storage","localStorage","sessionStorage","syncState"],
   "dependencies": {
     "react": "^18.0.0"
   },

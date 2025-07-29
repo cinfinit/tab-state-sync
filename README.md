@@ -1,6 +1,6 @@
 
 
-# 🧠 tab-state-sync
+# 🧠 tabs-state-sync
 [![NPM version](https://img.shields.io/npm/v/tab-state-sync.svg?style=flat)](https://www.npmjs.com/package/tab-state-sync) [![NPM downloads](https://img.shields.io/npm/dm/tab-state-sync.svg?style=flat)](https://npmjs.org/package/tab-state-sync) 
 
 
@@ -13,7 +13,7 @@
 You ever open your app in two tabs and change the theme in one, but the other tab just… doesn’t get it?  
 Rude.
 
-**`tab-state-sync`** is a tiny React hook that makes your app state **instantly sync across tabs**. No Redux. No context. No tears. Just vibes.
+**`tabs-state-sync`** is a tiny React hook that makes your app state **instantly sync across tabs**. No Redux. No context. No tears. Just vibes.
 
 ```tsx
 const [theme, setTheme] = useSyncedState('theme', 'light');
@@ -28,14 +28,14 @@ Imagine:
 * Tab A logs out.
 * Tab B still thinks it’s logged in.
 * You scream.
-* `tab-state-sync` prevents that scream.
+* `tabs-state-sync` prevents that scream.
 
 ---
 
 ## ⚡ Install
 
 ```bash
-npm install tab-state-sync
+npm install tabs-state-sync
 ```
 
 > Or `yarn`, if you're into that sort of thing.
@@ -45,7 +45,7 @@ npm install tab-state-sync
 ## 🔮 Usage
 
 ```tsx
-import { useSyncedState } from 'tab-state-sync';
+import { useSyncedState } from 'tabs-state-sync';
 
 function ThemeToggle() {
   const [theme, setTheme] = useSyncedState('theme', 'light');
