@@ -62,14 +62,6 @@ Then open another tab. Click the button. Watch it *sync like it’s 1999*.
 
 ---
 
-## 🧪 What’s Actually Happening?
-
-* Stores the state in `localStorage`.
-* Listens to `storage` events like a polite gossip line.
-* Updates across all tabs, in real time.
-* Uses JSON under the hood, because who doesn’t?
-
----
 
 ## 🧯 Use Cases (aka excuses to use this)
 
