@@ -1,7 +1,7 @@
 
 
 # 🧠 tabs-state-sync
-[![NPM version](https://img.shields.io/npm/v/tab-state-sync.svg?style=flat)](https://www.npmjs.com/package/tab-state-sync) [![NPM downloads](https://img.shields.io/npm/dm/tab-state-sync.svg?style=flat)](https://npmjs.org/package/tab-state-sync) 
+[![NPM version](https://img.shields.io/npm/v/tabs-state-sync.svg?style=flat)](https://www.npmjs.com/package/tabs-state-sync) [![NPM downloads](https://img.shields.io/npm/dm/tabs-state-sync.svg?style=flat)](https://npmjs.org/package/tabs-state-sync) 
 
 
 > Because your tabs should talk behind your back — *constructively*.

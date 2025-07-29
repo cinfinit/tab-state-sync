@@ -1,6 +1,7 @@
 {
   "name": "tabs-state-sync",
   "version": "0.1.0",
+  "description": "it is a tiny React hook that makes your app state instantly sync across tabs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
